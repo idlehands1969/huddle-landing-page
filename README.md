@@ -28,12 +28,12 @@ Users should be able to:
 ### Screenshot
 
 ![mobile](./mobile.png)
-![mobile](./desktop.png)
+![desktop](./desktop.png)
 
 ### Links
 
 - Solution URL: [Solution](https://github.com/idlehands1969/huddle-landing-page/blob/521c2a1c7d394858e0f927000259a5b264395048/index.html)
-- Live Site URL: [Live Site]([https://your-live-site-url.com](https://idlehands1969.github.io/huddle-landing-page/))
+- Live Site URL: [Live Site](https://idlehands1969.github.io/huddle-landing-page/)
 
 ## My process
 
