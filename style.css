@@ -1,0 +1,767 @@
+ /* **************************** */
+/* ****** GENERAL SETTINGS ******* */
+/* **************************** */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+html, body {
+    width: 100vw;
+    min-height: 100vh;
+    }
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+ /* *************************** */
+/* ******** VARIABLES ********* */
+/* **************************** */
+
+:root {
+    
+        --Pink: #ff52bf;
+        --Light-Pink: #ff8fd8;
+        --Light-Red: #ff4242;
+        --Very-Dark-Cyan: #00252e;
+        --Very-Pale-Blue: #f5faff;
+        --Light-Blue: #808E9A;
+        --white: #ffffff;
+
+        --heading-font: Poppins, sans-serif;
+        --heading-weight: 700;
+
+        --body-font: "Open Sans", sans-serif;
+        --body-light-weight: 400;
+        --body-medium-weight: 600;
+        --body-bold-weight: 700;
+}
+
+/* **************************** */
+/* ****** TEXT SETTINGS ******* */
+/* **************************** */
+
+/*************/
+/* TEXT COLOR */
+/*************/
+.white {
+    color: var(--white);
+}
+
+.dark {
+    color: var(--Very-Dark-Cyan);
+}
+
+.pink {
+    color: var(--Pink);
+}
+
+/*************/
+/* FONT/WEIGHT */
+/*************/
+.heading-font {
+    font-family: var(--heading-font);
+    font-weight: var(--heading-weight);
+}
+
+.body-light-weight {
+    font-family: var(--body-font);
+    font-weight: var(--body-light-weight);
+}
+
+.body-medium-weight {
+    font-family: var(--body-font);
+    font-weight: var(--body-medium-weight);
+}
+
+.body-bold-weight {
+    font-family: var(--body-font);
+    font-weight: var(--body-bold-weight);
+}
+
+/*************/
+/* FONT-SIZE/LINE-HEIGHT */
+/*************/
+.header-button-text {
+    font-size: 9px;
+    line-height: 13px;
+}
+
+.hero-cta-button-text {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.newsletter-button {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.mess-body	{
+    font-size:	13px;
+    line-height: 20px;
+}
+
+.hero-body, .gfu-body {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.contact-body, .signup-body {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.comm-body {
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.gfu-head, .signup-head {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.hero-heading, .cta-heading {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.mess-head {
+    font-size: 54px;
+    line-height: 80px;
+}
+
+.comm-head {
+    font-size: 61px;
+    line-height: 91px;
+}
+
+
+/* ************************* */
+/* ******** HEADER ********* */
+/* ************************* */
+
+.header-group {
+    width: 87.2%;
+    margin-top: 24px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-head {
+    width: 96px;
+}
+
+.header-button {
+    width: 80px;
+    height: 24px;
+    border-radius: 12px;
+    background: #ffffff;
+    border: 1px solid var(--Pink);
+}
+
+/* ************************* */
+/* ********* MAIN ********** */
+/* ************************* */
+
+main {
+    text-align: center;
+}
+
+/* ************************* */
+/* ********* HERO ********** */
+/* ************************* */
+
+
+.hero {
+    width: 78.93333333333333%;
+    margin-inline: auto;
+    margin-top: 112px;
+}
+
+.hero-heading {
+    margin-top: 24px;
+}
+
+.hero-body {
+    margin-top: 24px;
+}
+
+.hero-button {
+    width: 200px;
+    height: 40px;
+    margin-top: 48px;
+    margin-inline: auto;
+    background: var(--Pink);
+    border-radius: 20px;
+    border: none;
+}
+
+.hero-button:hover {
+    background: var(--Light-Pink);
+}
+
+.hero-image {
+    width: 296px;
+    margin-inline: auto;
+    margin-top: 104px;
+}
+
+/* **************************** */
+/* ********* DIAGRAM ********** */
+/* **************************** */
+
+.diagram {
+    width: 42.66666666666667%;
+    margin-inline: auto;
+    margin-top: 145px;
+    display: flex;
+    flex-direction: column;
+}
+
+.comm-container {
+    position: relative;
+    width: 160px;
+    margin-inline: auto;
+}
+
+.comm-img {
+    width: 28.89px;
+    position: absolute;
+    top: -25px;
+    left: 3px;
+}
+
+.mess-container {
+    margin-top: 88px;
+    position: relative;
+    width: 160px;
+    margin-inline: auto;
+}
+
+.mess-img {
+    width: 27.32px;
+    position: absolute;
+    top: -20px;
+    left: 2px;
+}
+
+/* ************************************ */
+/* ********* GROW/FLOW/USERS ********** */
+/* ************************************ */
+
+.curve {
+    width: 100%;
+}
+
+.grow-users-content-wrapper {
+    background-color: var(--Very-Pale-Blue);
+}
+
+.gfu-body {
+    margin-top: 16px;
+}
+
+.gfu-content {
+    width: 85.33333333333333%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.grow {
+    margin-top: 22px;
+}
+
+.grow-img {
+    width: 258.61px;
+    margin-inline: auto;
+    margin-top: 82px;
+}
+
+.grow-head {
+    margin-top: 74px;
+}
+
+.grow-bottom {
+    margin-bottom: 53px;
+}
+
+.flow {
+    min-height: 648px;
+}
+
+.flow-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.flow-img {
+    width: 265.5px;
+    margin-inline: auto;
+    margin-top: 140px;
+}
+
+.flow-head {
+    margin-top: 85px;
+}
+
+.users {
+    margin-top: 125px;
+}
+
+.users-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.users-img {
+    width: 267px;
+    margin-inline: auto;
+    margin-top: 82.22px;
+}
+
+.users-head {
+    padding-top: 79px;
+}
+
+.users-bottom {
+    padding-bottom: 114px;
+}
+
+/* ************************ */
+/* ********* CTA ********** */
+/* ************************ */
+
+.cta {
+    margin-top: 65px;
+}
+
+.cta > button {
+    width: 200px;
+    height: 40px;
+    margin-top: 40px;
+    margin-inline: auto;
+    background: var(--Pink);
+    border-radius: 20px;
+    border: none;
+}
+
+.cta > button:hover {
+    background: var(--Light-Pink);
+}
+
+/* *************************** */
+/* ********* FOOTER ********** */
+/* *************************** */
+
+footer {
+    margin-top: 251px;
+    margin-inline: auto;
+}
+
+.ftr-img {
+    width: 100%;
+}
+
+.ftr-background {
+    padding-top: 56px;
+    padding-bottom: 46px;
+    background-color: var(--Very-Dark-Cyan);
+}
+
+.footer-content {
+    width: 85.33333333333333%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-head {
+    text-transform: uppercase;
+}
+
+.signup-body {
+    margin-top: 16px;
+}
+
+#email {
+    width: 100%;
+    height: 40px;
+    margin-top: 32px;
+    border-radius: 6px;
+}
+
+#email-button {
+    width: 160px;
+    height: 48px;
+    margin-top: 16px;
+    background-color: var(--Pink);
+    border: none;
+    border-radius: 5px;
+    }
+
+#email-button:hover {
+    background-color: var(--Light-Pink);
+}
+
+.email-button-place {
+    text-align: right;
+}
+
+.email-button-text {
+    text-align: center;
+}
+
+.contact {
+    padding-top: 104px;
+}
+
+.logo-foot {
+    width: 200px;
+}
+
+.colorize {
+    -webkit-filter: brightness(0%) invert(1); 
+    filter: brightness(0%) invert(1); 
+}
+
+.contact-body {
+    margin-top: 16px;
+}
+
+.phone-email {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-line {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.phone {
+    margin-bottom: 16px;
+}
+
+.phone-icon {
+    width: 18px;
+    margin-right: 19px;
+}
+
+.email-icon {
+    width: 20px;
+    margin-right: 18px;
+}
+
+.socials {
+    height: 23px;
+    margin-block: 48px 46px;
+    display: flex;
+}
+
+.social {
+    min-width: 23.11px;
+    margin-right: 17.33px;
+}
+
+.attr-cont {
+    display: flex;
+    text-align: center;
+    width: 300px;
+    margin-inline: auto;
+}
+
+.attribution {
+    font-size: 11px;
+}
+
+.attribution a {
+    text-decoration: underline;
+    color: white;
+}
+
+@media (min-width: 1440px) {
+
+    /*************************/
+    /* FONT-SIZE/LINE-HEIGHT */
+    /*************************/
+
+    .header-button-text {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .newsletter-button, .gfu-body {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .hero-cta-button-text, .hero-body {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .comm-body, .mess-body, .signup-head {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .gfu-head, .cta-heading {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .hero-heading {
+        font-size: 48px;
+        line-height: 72px;
+    }
+
+    .comm-head, .mess-head {
+        font-size: 96px;
+        line-height: 144px;
+    }
+    
+    /* ******** HEADER ********* */
+        .header-group {
+            width: 90.06944444444444%;
+            margin-top: 78px;
+        }
+
+        .logo-head {
+            width: 240px;
+        }
+
+        .header-button {
+            width: 136px;
+            height: 40px;
+            border-radius: 20px;
+        }
+
+    /* ********* HERO ********** */
+        .hero {
+            width: 70.625%;
+            margin-top: 225px;
+            margin-inline: auto;
+        }
+
+        .hero-body {
+            margin-top: 26px;
+        }
+
+        .hero-button {
+            width: 400px;
+            height: 80px;
+            margin-top: 49px;
+            margin-inline: auto;
+            border-radius: 40px;
+        }
+
+        .hero-image {
+            width: 1016px;
+            margin-top: 120px;
+        }
+
+    /* ********* DIAGRAM ********** */
+        .diagram {
+            width: 61.11111111111111%;
+            margin-top: 120px;
+            margin-inline: auto;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .comm-img {
+            width: 46px;
+            top: -40px;
+            left: 0;
+        }
+
+        .mess-container {
+            margin-top: 0px;
+        }
+
+        .mess-img {
+            width: 49px;
+            top: -37px;
+            left: 4px;
+        }
+
+    /* ********* GROW/FLOW/USERS ********** */
+        .gfu-content {
+            width: 81.94444444444444%;
+            text-align: left;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .gfu-body {
+            margin-top: 26px;
+        }
+
+    /* ********* GROW ********** */
+        .grow {
+            margin-block: 133px 194.84px;
+        }
+
+        .grow-content {
+            flex-direction: row-reverse;
+        }
+
+        .grow-text {
+            padding-right: 121.87px;
+        }
+            
+        .grow-img {
+            width: 517.22px;
+            margin-top: 68.44px;
+        }
+        
+        .flow {
+            height: 684px;
+        }
+        
+        .flow-content {
+            flex-direction: row;
+        }
+
+        .flow-text {
+            padding-left: 134px;
+        }
+        
+        .flow-img {
+            width: 531px;
+        }
+
+        .users {
+            height: 773.84px;
+        }
+        
+        .users-content {
+            flex-direction: row-reverse;
+            width: 83.33333333333333%;
+            padding-top: 36px;
+        }
+
+        .users-text {
+            padding-right: 133px;
+        }
+        
+        .users-img {
+            width: 534px;
+        }
+        
+        .users-bottom {
+            padding-bottom: 114px;
+        }
+        
+        /* ************************ */
+        /* ********* CTA ********** */
+        /* ************************ */
+        
+        .cta {
+            width: 47.22222222222222%;
+            margin-inline: auto;
+            margin-top: 135px;
+        }
+        
+        .cta > button {
+            margin-top: 42px;
+        }
+        
+    /* ********* FOOTER ********** */
+        footer {
+            margin-top: 184px;
+        }
+
+        .ftr-background {
+            padding-top: 122px;
+        }
+
+        .footer-content {
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .signup {
+            max-width: 50%;
+            margin-left: 23.61111111111111%;
+        }
+
+        .signup-form {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #email {
+            width: 320px;
+            height: 48px;
+            margin-top: 40px;
+            margin-right: 40px;
+            border-radius: 6px;
+        }
+
+        #email-button {
+            width: 160px;
+            height: 48px;
+            margin-top: 40px;
+            border-radius: 40px;
+        }
+
+        .contact-container {
+            width: 50%;
+            padding-top: 0px;
+            margin-top:0px;
+        }
+
+        .contact {
+            padding-top: 0px;
+        }
+
+        .colorize {
+            color: #FFC700;
+        }
+
+        .icon {
+            width: 24px;
+            height: 24px;
+            margin-inline: 10px;
+        }
+
+        .socials {
+            margin-top: 133px;
+        }
+
+        .social {
+            width: 24px;
+            height: 24px;
+            margin-inline: 10px;
+        }
+
+        .attr-cont {
+            margin-top: 133px;
+            width: 85%;
+            margin-inline: auto;
+        }
+
+        .attribution {
+            width: 100%;
+            margin-inline: auto;
+            font-size: 18px;
+        }
+
+}
